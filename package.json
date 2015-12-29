@@ -1,0 +1,28 @@
+{
+  "name": "test-project",
+  "version": "0.0.0",
+  "description": "test ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"commit" : "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrsafi/test-project.git"
+  },
+  "author": "mrsafi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrsafi/test-project/issues"
+  },
+  "homepage": "https://github.com/mrsafi/test-project",
+  "devDependencies": {
+    "commitizen": "^2.4.6",
+    "cz-conventional-changelog": "^1.1.5"
+  },
+  "czConfig" : {
+  
+  "path" : "node_modules/cz-conventional-changelog"
+  }
+}
